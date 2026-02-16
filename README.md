@@ -31,23 +31,23 @@ You can try it live here: [quiz-z-app.netlify.app](https://quiz-z-app.netlify.ap
 
 Clone the repository and install dependencies:
 
-git clone https://github.com/<SAM2330>/<Quiz-App>.git
+git clone https://github.com/<SAM2330>/<Quiz-app>.git
 cd <your-repo-name>
 npm install
 
-Development
+###Development
 Run the development server:
 npm run build
 Preview the production build locally:
 npm run preview
-  Deployment (Netlify)
+ ## Deployment (Netlify)
 This app is deployed on Netlify:
 https://quiz-z-app.netlify.app/
 Netlify settings for this repo:
 Build command: npm run build
 Publish directory: dist
 Push to your main branch and Netlify will rebuild automatically.
-Project Structure
+##Project Structure
 src/
   Components/
     Quiz.jsx        # Fetches questions, handles quiz flow
@@ -62,7 +62,7 @@ Quiz.jsx fetches questions from OpenTDB based on difficulty + category.
 Questions.jsx shuffles answers, checks correctness, updates score, and moves on.
 Results.jsx shows your score and lets you restart.
 
-Ideas for later
+###Ideas for later
 Show a review of all questions/answers at the end
 Track best score in localStorage
 Add more categories and question counts
